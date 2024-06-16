@@ -1,0 +1,408 @@
+CRITICAL - 2024-05-31 11:52:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte/login.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte/login.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/login', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:52:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte/login.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte/login.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/login', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:52:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte/login.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte/login.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/login', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:52:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte/login.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte/login.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/login', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte/login')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:58:26 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:59:15 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 11:59:56 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/store]
+in APPPATH/Controllers/Compte.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->store()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:07:03 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:18:38 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:27:07 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:27:14 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:27:32 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:31:14 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:31:20 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:32:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:32:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compte.php"
+[Method: GET, Route: compte]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compte.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte', [], true)
+ 3 APPPATH/Controllers/Compte.php(12): view('compte')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:33:22 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:35:51 --> Error: Class "App\Models\Db_model" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:36:05 --> Error: Class "App\Models\Db_model" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 12:36:12 --> Error: Class "App\Models\Db_model" not found
+[Method: POST, Route: compte/login]
+in APPPATH/Controllers/Compte.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->login()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 13:00:51 --> ErrorException: Undefined variable $session
+[Method: GET, Route: compte/compte_accueil]
+in APPPATH/Views/compte/compte_accueil.php on line 102.
+ 1 APPPATH/Views/compte/compte_accueil.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', '/Users/wariali/Desktop/codeigniter/app/Views/compte/compte_accueil.php', 102)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/compte/compte_accueil.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/compte_accueil', [], true)
+ 5 APPPATH/Controllers/Compte.php(60): view('compte/compte_accueil')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->compte_accueil()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 13:00:53 --> ErrorException: Undefined variable $session
+[Method: GET, Route: compte/compte_accueil]
+in APPPATH/Views/compte/compte_accueil.php on line 102.
+ 1 APPPATH/Views/compte/compte_accueil.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', '/Users/wariali/Desktop/codeigniter/app/Views/compte/compte_accueil.php', 102)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/compte/compte_accueil.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('compte/compte_accueil', [], true)
+ 5 APPPATH/Controllers/Compte.php(60): view('compte/compte_accueil')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Compte->compte_accueil()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compte))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 14:23:08 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 90.
+ 1 APPPATH/Views/affichage_menu.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 90)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 14:23:10 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 90.
+ 1 APPPATH/Views/affichage_menu.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 90)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 14:23:15 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 90.
+ 1 APPPATH/Views/affichage_menu.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 90)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 14:26:27 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 14:29:05 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 19:43:55 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 19:49:20 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 19:49:23 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 19:58:04 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 19:58:06 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 20:00:16 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 20:00:19 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-31 20:01:01 --> ErrorException: Undefined variable $patisseries
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 84.
+ 1 APPPATH/Views/affichage_menu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patisseries', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 84)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('affichage_menu')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

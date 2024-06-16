@@ -1,0 +1,226 @@
+CRITICAL - 2024-06-06 09:13:33 --> ErrorException: Undefined variable $panier
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 104.
+ 1 APPPATH/Views/affichage_menu.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $panier', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 104)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(37): view('affichage_menu', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 09:13:35 --> ErrorException: Undefined variable $panier
+[Method: GET, Route: menu]
+in APPPATH/Views/affichage_menu.php on line 104.
+ 1 APPPATH/Views/affichage_menu.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $panier', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php', 104)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_menu.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_menu', [], true)
+ 5 APPPATH/Controllers/Home.php(37): view('affichage_menu', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->menu()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-06 12:52:42 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query('INSERT INTO `Co...', 0)
+#1 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 /Users/wariali/Desktop/codeigniter/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 /Users/wariali/Desktop/codeigniter/app/Controllers/Panier.php(87): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(933): App\Controllers\Panier->commander()
+#6 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+#7 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/wariali/Desktop/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 /Users/wariali/Desktop/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/wariali/Desktop/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-06 12:52:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`m'hira`.`commande_produits`, CONSTRAINT `commande_produits_ibfk_1` FOREIGN KEY (`commande_id`) REFERENCES `Commandes` (`commande_id`)) in /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query('INSERT INTO `Co...', 0)
+#1 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 /Users/wariali/Desktop/codeigniter/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 /Users/wariali/Desktop/codeigniter/app/Controllers/Panier.php(96): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(933): App\Controllers\Panier->commander()
+#6 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+#7 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/wariali/Desktop/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 /Users/wariali/Desktop/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/wariali/Desktop/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-06 12:52:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`m'hira`.`commande_produits`, CONSTRAINT `commande_produits_ibfk_1` FOREIGN KEY (`commande_id`) REFERENCES `Commandes` (`commande_id`)) in /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query('INSERT INTO `Co...', 0)
+#1 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 /Users/wariali/Desktop/codeigniter/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 /Users/wariali/Desktop/codeigniter/app/Controllers/Panier.php(96): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(933): App\Controllers\Panier->commander()
+#6 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+#7 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/wariali/Desktop/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 /Users/wariali/Desktop/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/wariali/Desktop/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-06 12:52:57 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query('INSERT INTO `Co...', 0)
+#1 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 /Users/wariali/Desktop/codeigniter/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 /Users/wariali/Desktop/codeigniter/app/Controllers/Panier.php(87): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(933): App\Controllers\Panier->commander()
+#6 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+#7 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/wariali/Desktop/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 /Users/wariali/Desktop/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/wariali/Desktop/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-06 12:52:57 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`m'hira`.`commande_produits`, CONSTRAINT `commande_produits_ibfk_1` FOREIGN KEY (`commande_id`) REFERENCES `Commandes` (`commande_id`)) in /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /Users/wariali/Desktop/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query('INSERT INTO `Co...', 0)
+#1 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 /Users/wariali/Desktop/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 /Users/wariali/Desktop/codeigniter/system/Database/BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 /Users/wariali/Desktop/codeigniter/app/Controllers/Panier.php(96): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(933): App\Controllers\Panier->commander()
+#6 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+#7 /Users/wariali/Desktop/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/wariali/Desktop/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 /Users/wariali/Desktop/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/wariali/Desktop/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-06-06 13:25:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/hat.php"
+[Method: GET, Route: panier]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/hat.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('templates/hat.php', [], true)
+ 3 APPPATH/Controllers/Panier.php(14): view('templates/hat.php')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Panier->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:25:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/hat.php"
+[Method: GET, Route: panier]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/hat.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('templates/hat.php', [], true)
+ 3 APPPATH/Controllers/Panier.php(14): view('templates/hat.php')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Panier->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panier))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:08:33 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 61.
+ 1 APPPATH/Views/affichage_galerie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Home.php(21): view('affichage_galerie')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->galerie()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:09:13 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 61.
+ 1 APPPATH/Views/affichage_galerie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Home.php(21): view('affichage_galerie')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->galerie()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:09:16 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 61.
+ 1 APPPATH/Views/affichage_galerie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Home.php(21): view('affichage_galerie')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->galerie()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:10:49 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 61.
+ 1 APPPATH/Views/affichage_galerie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Home.php(21): view('affichage_galerie')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->galerie()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:23:15 --> ErrorException: Undefined variable $imagePath
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 66.
+ 1 APPPATH/Views/affichage_galerie.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagePath', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 66)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Galerie.php(14): view('affichage_galerie', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Galerie->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galerie))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:47:08 --> ErrorException: Undefined property: App\Controllers\Galerie::$galerieModel
+[Method: POST, Route: galerie/enregistrer]
+in APPPATH/Controllers/Galerie.php on line 33.
+ 1 APPPATH/Controllers/Galerie.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Galerie::$galerieModel', '/Users/wariali/Desktop/codeigniter/app/Controllers/Galerie.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Galerie->enregistrer()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galerie))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 22:47:50 --> ErrorException: Undefined property: App\Controllers\Galerie::$galerieModel
+[Method: POST, Route: galerie/enregistrer]
+in APPPATH/Controllers/Galerie.php on line 33.
+ 1 APPPATH/Controllers/Galerie.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Galerie::$galerieModel', '/Users/wariali/Desktop/codeigniter/app/Controllers/Galerie.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Galerie->enregistrer()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galerie))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 23:03:33 --> ErrorException: Undefined variable $galerie
+[Method: GET, Route: galerie]
+in APPPATH/Views/affichage_galerie.php on line 61.
+ 1 APPPATH/Views/affichage_galerie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $galerie', '/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/wariali/Desktop/codeigniter/app/Views/affichage_galerie.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('affichage_galerie', [], true)
+ 5 APPPATH/Controllers/Galerie.php(14): view('affichage_galerie', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Galerie->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galerie))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
